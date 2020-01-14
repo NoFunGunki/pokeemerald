@@ -261,6 +261,9 @@ LittlerootTown_EventScript_Boy:: @ 81E802B
 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
 	end
 
+Text_ReceivedMence:
+	.string "It Finally Worked!$"
+
 LittlerootTown_EventScript_Twin:: @ 81E8034
 	lock
 	faceplayer
